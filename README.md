@@ -91,6 +91,23 @@ chest_xray/
 - 📊 Evaluated using accuracy during training/validation
 - 📁 Model saved as: our_model.h5
 
+ # 📤 Output
+ 
+The application provides a visual and textual output after analyzing the uploaded chest X-ray image. Based on the prediction, the result will be either Pneumonia or Normal, displayed clearly on the interface.
+
+## 🔎 Prediction: Pneumonia
+When an X-ray image showing signs of pneumonia is uploaded, the model predicts Pneumonia and displays the result below the image.
+![Screenshot 2025-05-17 072819t](https://github.com/user-attachments/assets/40a392ef-38c9-4434-886b-8753c3324823)
+
+## ✅ Prediction: Normal
+When a normal chest X-ray is uploaded, the model predicts Normal and displays the result accordingly.
+![Screenshot 2025-05-17 072931t](https://github.com/user-attachments/assets/eac56d9d-3123-4744-ab67-baef89ca5789)
+
+## 🚫 Unsupported Image
+If an unsupported file or a non–chest X-ray image is uploaded, the application will display an appropriate warning message, preventing further processing.
+
+![Screenshot 2025-05-17 122104t](https://github.com/user-attachments/assets/84f762c4-2af6-4d93-852e-0a8a2c1b4cd1)
+
 
 # 🚀 Future Improvements
 
